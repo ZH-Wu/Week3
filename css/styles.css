@@ -65,6 +65,18 @@ h4 {
     width: 492px;
     padding: 25px 0;
 }
+.menu a::after, .footer-menu a::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .35s;
+}
+.menu a:hover::after, .footer-menu a:hover::after {
+    width: 100%;
+}
 .banner {
     background-image: url(../images/home-header.png);
     background-size: cover;
@@ -78,6 +90,12 @@ h4 {
 .banner .btn {
     margin-top: 4px;
     padding: 6px 12px;
+}
+.banner .btn:hover {
+    box-shadow: 0 0 5px 2px #650300;
+}
+.banner .btn:active {
+    border-radius: 20px;
 }
 /* main */
 .our_service {
@@ -147,6 +165,10 @@ h4 {
 .list li {
     width: 306px;
     box-shadow: 0px 2px 6px #00000029;
+    transition: .35s;
+}
+.list li:hover {
+    transform: translateY(-10px);
 }
 .list img {
     height: 306px;
@@ -196,6 +218,44 @@ input[type=submit] {
     border: none;
     
 }
-
+/* footer */
+footer {
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.footer-menu {
+    width: 464px;
+}
+.share {
+    width: 208px;
+}
+.share img {
+    width: 48px;
+    height: 48px;
+    transition: .35s;
+}
+.share img:hover {
+    transform: scale(1.2);
+}
+.contact-info {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+}
+.contact-info li span {
+    display: block;
+    font-size: 48px;
+    padding: 8px 4px;
+}
+.contact-info li p {
+    margin-left: 16px;
+    font-size: 36px;
+}
+.terms_conditions ul {
+    width: 174px;
+}
+.terms_conditions a {
+    font-size: 14px;
+}
 
 
