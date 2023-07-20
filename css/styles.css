@@ -221,6 +221,11 @@ h4 {
 .contact .container {
     max-width: 636px;
 }
+@media (max-width: 768px) {
+    .contact .container {
+        max-width: 576px;
+    }
+}
 .contact p {
     margin-bottom: 24px;
 }
@@ -259,9 +264,13 @@ footer {
         height: 40px;
     }
 }
-
 .share img:hover {
     transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .share img:hover {
+        transform: none;
+    }
 }
 .contact-info {
     padding-bottom: 32px;
