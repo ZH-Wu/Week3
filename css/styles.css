@@ -144,6 +144,9 @@ h4 {
         font-size: 24px;
         margin-bottom: 24px;
     }
+    .link:hover::after {
+        width: 0;
+    }
 }
 
 /* header */
