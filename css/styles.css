@@ -145,7 +145,7 @@ h4 {
         margin-bottom: 24px;
     }
     .link:hover::after {
-        width: 0;
+        display: none;
     }
 }
 
