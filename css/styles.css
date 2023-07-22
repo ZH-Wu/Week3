@@ -154,6 +154,10 @@ nav {
     padding: 16px 0;
 }
 
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .menu {
     width: 38%;
 }
