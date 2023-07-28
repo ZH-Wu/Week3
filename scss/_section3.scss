@@ -1,0 +1,23 @@
+/* co-branded_series */
+.co-branded_series {
+    background-image: url(../images/bg-section4.png);
+    background-position: center top;
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .collection {
+        flex-direction: column;
+    }
+
+    .collection li:first-child {
+        margin-bottom: 24px;
+    }
+}
+
+.collection li h2 {
+    background: #fff;
+    font-style: italic;
+    padding: 8px 0;
+    font-weight: 900;
+}
